@@ -42,7 +42,7 @@ export default function SignIn() {
 	const signInFormSubmit = async (values) => {
 		try {
 			// Fetch user data from your JSON server
-			const response = await axios.get('http://localhost:8000/user');
+		const response = await axios.get('https://682cb5974fae18894753996a.mockapi.io/user');
 			const users = response.data;
 			// Find the user with the entered email
 			const user = users.find((user) => user.username === values.username);
