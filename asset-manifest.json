@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/pagaurav/Login-Systems/static/css/main.f1a7640d.css",
+    "main.js": "/pagaurav/Login-Systems/static/js/main.29ddd3c2.js",
+    "static/js/787.84186d23.chunk.js": "/pagaurav/Login-Systems/static/js/787.84186d23.chunk.js",
+    "index.html": "/pagaurav/Login-Systems/index.html",
+    "main.f1a7640d.css.map": "/pagaurav/Login-Systems/static/css/main.f1a7640d.css.map",
+    "main.29ddd3c2.js.map": "/pagaurav/Login-Systems/static/js/main.29ddd3c2.js.map",
+    "787.84186d23.chunk.js.map": "/pagaurav/Login-Systems/static/js/787.84186d23.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f1a7640d.css",
+    "static/js/main.29ddd3c2.js"
+  ]
+}
