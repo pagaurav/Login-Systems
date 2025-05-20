@@ -60,13 +60,13 @@ export default function SignUp() {
 	const signUpFormSubmit = async (values) => {
 		try {
 			// Fetch user data from your JSON server
-			const response = await axios.get('http://localhost:8000/user');
+	    const response = await axios.get('https://682cb5974fae18894753996a.mockapi.io/user');
 			const users = response.data;
 			// Find the user with 
 			const user = users.find((user) => user.username === values.username);
 			
 			if (!user) {
-				fetch('http://localhost:8000/user', {
+				fetch('https://682cb5974fae18894753996a.mockapi.io/user', {
 					method: 'POST',
 					headers: { "content-type": "application/json" },
 					body: JSON.stringify(values)
